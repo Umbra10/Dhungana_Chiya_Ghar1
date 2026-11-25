@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e98a3c"/><stop offset=".45" stop-color="#f5c98a"/><stop offset="1" stop-color="#fbf0dc"/></linearGradient>
+<pattern id="brick" width="60" height="30" patternUnits="userSpaceOnUse"><rect width="60" height="30" fill="#7a2f1d"/><path d="M0 0H60M0 15H60M30 0V15M0 15V30M60 15V30" stroke="#5a2013" stroke-width="2" fill="none"/></pattern>
+<pattern id="lattice" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M24 2 L46 24 L24 46 L2 24Z" fill="none" stroke="#7a2f1d" stroke-width="1.5"/><circle cx="24" cy="24" r="4" fill="none" stroke="#7a2f1d"/></pattern>
+</defs>
+<rect width="1600" height="900" fill="url(#sky)"/>
+<rect width="1600" height="900" fill="url(#lattice)" opacity=".07"/>
+<circle cx="1180" cy="230" r="110" fill="#fff3d6" opacity=".6"/><circle cx="1180" cy="230" r="70" fill="#e9a04a" opacity=".6"/>
+<path d="M0 600 L170 420 L290 520 L470 330 L650 540 L830 400 L1000 570 L1180 380 L1360 550 L1500 440 L1600 520 V900H0Z" fill="#a86a4a" opacity=".45"/>
+<path d="M0 690 L150 580 L300 670 L460 550 L640 680 L820 590 L1000 690 L1170 570 L1340 680 L1490 600 L1600 670 V900H0Z" fill="#6b2d1c" opacity=".55"/>
+<g fill="#3a140b">
+<rect x="1060" y="760" width="300" height="140"/>
+<path d="M1040 760 h340 l-30 -34 h-280z"/>
+<path d="M1070 726 h280 l-26 -32 h-228z"/>
+<path d="M1100 694 h220 l-22 -30 h-176z"/>
+<path d="M1130 664 h160 l-18 -28 h-124z"/>
+<path d="M1160 636 h100 l-14 -26 h-72z"/>
+<path d="M1210 610 h0 l0 -40 M1210 570 l-8 -16 h16z"/>
+<rect x="1195" y="560" width="30" height="50"/>
+<rect x="1195" y="580" width="30" height="0"/>
+</g>
+<g fill="#f5c98a" opacity=".85"><rect x="1100" y="790" width="22" height="34" rx="11"/><rect x="1150" y="790" width="22" height="34" rx="11"/><rect x="1200" y="790" width="22" height="34" rx="11"/><rect x="1250" y="790" width="22" height="34" rx="11"/><rect x="1300" y="790" width="22" height="34" rx="11"/></g>
+<g stroke="#3a140b" stroke-width="3" fill="none"><path d="M300 640 V470 M300 470 l-110 -26 M300 470 l110 -26"/></g>
+<g fill="#e9a04a"><path d="M190 444 l12 22 h-24z"/><path d="M410 444 l12 22 h-24z"/><path d="M290 470 l10 26 l10 -26z"/></g>
+<rect y="820" width="1600" height="80" fill="url(#brick)"/>
+<rect y="812" width="1600" height="8" fill="#3a140b"/>
+</svg>

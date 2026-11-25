@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" role="img" aria-label="A steaming glass of masala chiya">
+<defs>
+<linearGradient id="tea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9822b"/><stop offset=".6" stop-color="#a8531a"/><stop offset="1" stop-color="#6e300f"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset=".25" stop-color="#fff" stop-opacity=".08"/><stop offset=".8" stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-color="#fff" stop-opacity=".45"/></linearGradient>
+<radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ffd58a" stop-opacity=".9"/><stop offset="1" stop-color="#ffd58a" stop-opacity="0"/></radialGradient>
+<filter id="blur"><feGaussianBlur stdDeviation="6"/></filter>
+</defs>
+<circle cx="200" cy="230" r="190" fill="url(#glow)"/>
+<g fill="none" stroke="#fff" stroke-linecap="round" opacity=".75" filter="url(#blur)" stroke-width="10">
+<path d="M160 140 C130 110 190 90 160 55 C140 32 175 20 170 8"/><path d="M205 140 C175 105 240 85 208 48 C190 28 222 14 215 2"/><path d="M250 140 C222 112 280 92 250 60 C235 42 262 28 256 14"/></g>
+<g fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3" opacity=".9">
+<path d="M160 140 C130 110 190 90 160 55"/><path d="M205 140 C175 105 240 85 208 48"/><path d="M250 140 C222 112 280 92 250 60"/></g>
+<ellipse cx="200" cy="395" rx="150" ry="26" fill="#3b1f14"/>
+<ellipse cx="200" cy="388" rx="150" ry="24" fill="#5a3220"/>
+<ellipse cx="200" cy="384" rx="120" ry="16" fill="#7a4630"/>
+<path d="M112 160 L132 372 Q134 388 150 388 H250 Q266 388 268 372 L288 160Z" fill="#fff" fill-opacity=".14" stroke="#fff" stroke-opacity=".7" stroke-width="3"/>
+<path d="M118 205 L134 370 Q135 384 150 384 H250 Q265 384 266 370 L282 205Z" fill="url(#tea)"/>
+<ellipse cx="200" cy="205" rx="82" ry="12" fill="#f0a64d"/>
+<ellipse cx="200" cy="205" rx="82" ry="12" fill="none" stroke="#fff" stroke-opacity=".5"/>
+<path d="M112 160 L132 372 Q134 388 150 388 H250 Q266 388 268 372 L288 160Z" fill="url(#glass)"/>
+<ellipse cx="200" cy="160" rx="88" ry="13" fill="none" stroke="#fff" stroke-opacity=".85" stroke-width="3"/>
+<path d="M128 180 L142 360" stroke="#fff" stroke-opacity=".7" stroke-width="6" stroke-linecap="round"/>
+<g fill="#2e6b3a"><ellipse cx="82" cy="395" rx="14" ry="7" transform="rotate(-20 82 395)"/><ellipse cx="320" cy="400" rx="14" ry="7" transform="rotate(25 320 400)"/></g>
+<g fill="#6b4a2b"><circle cx="300" cy="372" r="5"/><circle cx="312" cy="378" r="5"/><circle cx="96" cy="372" r="5"/></g>
+</svg>
